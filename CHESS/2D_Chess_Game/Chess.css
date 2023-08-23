@@ -59,7 +59,7 @@ li {
     margin-right: 50px;
 
 }
-.new_game{
+#new_game{
     width: 120px;
     height: 30px;
     background: grey;
