@@ -71,3 +71,6 @@ body{
     color: black;
     font-weight: 600;
 }
+.wrapper .btn a{
+    text-decoration: none;
+}

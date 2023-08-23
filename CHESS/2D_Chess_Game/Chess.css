@@ -59,8 +59,20 @@ li {
     margin-right: 50px;
 
 }
-
-
+.new_game{
+    width: 120px;
+    height: 30px;
+    background: grey;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    position: absolute;
+    top: 80px;
+    left: 250px;
+}
 @media (max-width:650px){
 
     #tog {
