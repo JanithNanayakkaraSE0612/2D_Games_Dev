@@ -68,13 +68,28 @@ li {
     cursor: pointer;
     border: 1px solid black;
     font-size: 16px;
-    color: black;
     font-weight: 600;
     position: absolute;
     top: 80px;
     left: 250px;
 }
+#turn_back{
+    width: 120px;
+    height: 30px;
+    background: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid black;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    position: absolute;
+    top: 120px;
+    left: 250px;
+}
 #new_game a{
+    color: black;
     text-decoration: none;
 }
 @media (max-width:650px){

@@ -577,7 +577,7 @@ document.querySelectorAll('.box').forEach(item => {
                     arr.push('0')
                     aup = eval(arr.join(''))
                     a = aside + aup
-
+                    
                     if (item2.style.backgroundColor == 'green' && item2.innerText.length == 0) {
 
                         if (pinkText == `Wpawn` && aup == 800) {
@@ -656,7 +656,6 @@ document.querySelectorAll('.box').forEach(item => {
 
                         }
                     }
-
                 })
             })
 
