@@ -62,10 +62,11 @@ li {
 #new_game{
     width: 120px;
     height: 30px;
-    background: grey;
+    background: white;
     border: none;
     outline: none;
     cursor: pointer;
+    border: 1px solid black;
     font-size: 16px;
     color: black;
     font-weight: 600;
