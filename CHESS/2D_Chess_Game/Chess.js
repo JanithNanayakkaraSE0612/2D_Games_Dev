@@ -681,3 +681,43 @@ document.querySelectorAll('.box').forEach(ee => {
     })
 })
 //end 
+
+let movesHistory = [];
+
+// Add event listener to the "Turn Back" button
+document.getElementById('turn_back').addEventListener('click', () => {
+    if (movesHistory.length > 0) {
+        const lastMove = movesHistory.pop();
+        
+        document.querySelectorAll('.box').forEach(box => {
+            box.innerText = '';
+            box.style.backgroundColor = '';
+        });
+        
+        
+        lastMove.forEach(move => {
+            const { id, text, bgColor } = move;
+            const box = document.getElementById(id);
+            box.innerText = text;
+            box.style.backgroundColor = bgColor;
+        });
+    }
+});
+
+
+
+document.querySelectorAll('.box').forEach(item => {
+    item.addEventListener('click', function () {
+     
+        const currentMove = [];
+        document.querySelectorAll('.box').forEach(box => {
+            currentMove.push({
+                id: box.id,
+                text: box.innerText,
+                bgColor: box.style.backgroundColor
+            });
+        });
+        movesHistory.push(currentMove);
+    });
+});
+
