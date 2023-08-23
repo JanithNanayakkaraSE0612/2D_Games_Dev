@@ -73,6 +73,9 @@ li {
     top: 80px;
     left: 250px;
 }
+#new_game a{
+    text-decoration: none;
+}
 @media (max-width:650px){
 
     #tog {
@@ -88,4 +91,5 @@ li {
     .allimg {
         width: 7vw;
     }
+
 }
