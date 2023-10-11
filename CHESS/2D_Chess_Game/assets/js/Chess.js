@@ -1,4 +1,4 @@
-// Inserting the Images
+
 function insertImage() {
 
     document.querySelectorAll('.box').forEach(image => {
@@ -19,9 +19,6 @@ function insertImage() {
     })
 }
 insertImage()
-
-
-//Coloring
 
 function coloring() {
     const color = document.querySelectorAll('.box')
