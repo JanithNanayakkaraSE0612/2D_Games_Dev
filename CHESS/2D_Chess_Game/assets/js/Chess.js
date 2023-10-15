@@ -42,7 +42,6 @@ function coloring() {
 }
 coloring()
 
-//function to not remove the same team element
 
 function reddish() {
     document.querySelectorAll('.box').forEach(i1 => {
@@ -89,7 +88,7 @@ document.querySelectorAll('.box').forEach(item => {
 
     item.addEventListener('click', function () {
 
-        // To delete the opposite element
+     
 
         if (item.style.backgroundColor == 'green' && item.innerText.length == 0) {
             tog = tog + 1
@@ -124,7 +123,7 @@ document.querySelectorAll('.box').forEach(item => {
         a = aside + aup
 
 
-        // Function to display the available paths for all pieces
+      
 
         function whosTurn(toggle) {
 
