@@ -676,11 +676,11 @@ document.querySelectorAll('.box').forEach(ee => {
         }
     })
 })
-//end 
+
 
 let movesHistory = [];
 
-// Add event listener to the "Turn Back" button
+
 document.getElementById('turn_back').addEventListener('click', () => {
     if (movesHistory.length > 0) {
         const lastMove = movesHistory.pop();
