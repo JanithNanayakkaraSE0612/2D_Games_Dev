@@ -551,7 +551,6 @@ document.querySelectorAll('.box').forEach(item => {
 
 
 
-// Moving the element
 document.querySelectorAll('.box').forEach(item => {
 
     item.addEventListener('click', function () {
