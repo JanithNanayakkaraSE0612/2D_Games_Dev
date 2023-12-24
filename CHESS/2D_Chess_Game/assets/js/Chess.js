@@ -550,7 +550,7 @@ document.querySelectorAll('.box').forEach(item => {
 
 
 
-//Update
+
 document.querySelectorAll('.box').forEach(item => {
 
     item.addEventListener('click', function () {
