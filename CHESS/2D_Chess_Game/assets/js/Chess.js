@@ -515,7 +515,7 @@ document.querySelectorAll('.box').forEach(item => {
 
 
 
-        // winning()
+    
 
         numOfKings = 0
 
